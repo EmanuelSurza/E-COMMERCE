@@ -1,0 +1,21 @@
+.desarollado__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.desarollado__descripcion{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #464646;
+}
+
+.desarollado__anio{
+    display: flex;
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    color: #464646;
+    font-weight: 500;
+    text-decoration: none;
+}
