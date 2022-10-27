@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./assets/header/header.css">
     <link rel="stylesheet" href="./assets/main/main-banner.css">
     <link rel="stylesheet" href="./assets/main/main-produtos-1.css">
+    <link rel="stylesheet" href="./assets/main/footer/footer__box.css">
+    <link rel="stylesheet" href="./assets/main/footer/contacto.css">
+    <link rel="stylesheet" href="./assets/main/footer/desarrollado.css">
     <title>E-COMMERCE</title>
 </head>
 <body>
@@ -216,25 +219,24 @@
                 <li class="item__lista__footer"><a href="" class="link__lista__footer">Quiero ser franquiciado</a></li>
                 <li class="item__lista__footer"><a href="" class="link__lista__footer">Anúncie aquí</a></li>
             </ul>
-
-            <section class="contacto__footer">
-                <div class="contacto__text">
-                    <p class="contacto__titulo">Contacto</p>
+        </section>
+        <section class="contacto__footer">
+            <div class="contacto__text">
+                <p class="contacto__titulo">Contacto</p>
+            </div>
+            <form class="footer__form" method="get">
+                <div class="form__contacto__cajas">
+                    <label class="text__label" for="text">Nombre </label>
+                    <input class="text__contacto" type="text" name="name" id="name" placeholder="Nombre" required>
                 </div>
-                <form class="footer__form" method="get">
-                    <div class="form__contacto__cajas">
-                        <label class="text__label" for="text">Nombre </label>
-                        <input class="text__contacto" type="text" name="name" id="name" placeholder="Nombre" required>
-                    </div>
-                    <div class="form__contacto__cajas form__mensaje">
-                        <label class="text__label" for="mensaje">Mensaje </label>
-                        <textarea class="text__contacto text__mensaje" name="mensaje" id="mensaje" placeholder="Mensaje" required></textarea>
-                    </div>
-                    <div class="form__contacto__cajas-enviar">
-                        <input class="boton-submit" type="submit" value="Enviar mensaje">
-                    </div>
-                </form>
-            </section>
+                <div class="form__contacto__cajas form__mensaje">
+                    <label class="text__label" for="mensaje">Mensaje </label>
+                    <textarea class="text__contacto text__mensaje" name="mensaje" id="mensaje" placeholder="Mensaje" required></textarea>
+                </div>
+                <div class="form__contacto__cajas-enviar">
+                    <input class="boton-submit" type="submit" value="Enviar mensaje">
+                </div>
+            </form>
         </section>
         <section class="desarollado__footer">
             <p class="desarollado__descripcion">Desarrollado por Emanuel Surza</br></p>
