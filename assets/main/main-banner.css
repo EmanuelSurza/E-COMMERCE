@@ -1,0 +1,22 @@
+.main__banner{
+    width: 100%;
+    height: 250px;
+    background-image: url(/E-COMMERCE/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.main__textos__boton{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: end;
+}
+
+@media (min-width: 768px) {
+    .main__banner{
+        height: 350px;
+    }
+}

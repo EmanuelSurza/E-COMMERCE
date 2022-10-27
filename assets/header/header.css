@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.header__img__logo{
+    width: 80px;
+    height: 30px;
+}
+
+.header__boton__login{
+    width: 150px;
+    border-radius: .3rem;
+    height: 40px;
+    font-size: 1.3rem;
+}
+.header__img__busqueda{
+    width: 30px;
+    height: 30px;
+}
+
+.main__boton__ver{
+    width: 150px;
+    height: 40px;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.main__banner__text1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+}
+
+.main__banner__text2{
+    color: white;
+    font-size: .85rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
